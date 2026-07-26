@@ -1,7 +1,16 @@
 aid: eon-pass
 name: Eon Pass
-description: Eon Pass is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eon Pass (EonPass) is an AI-powered anti-counterfeiting and brand-protection
+  software platform. It helps brand-protection and enforcement teams identify,
+  investigate, and take down counterfeiters by analyzing more than 24 data
+  sources — including marketplace activity, corporate records, logistics data,
+  and investigation signals — to build comprehensive profiles of suspected bad
+  actors. Teams track suspects, manage cases, and coordinate enforcement actions
+  from a unified dashboard, with the platform reporting takedown-efficiency
+  improvements of up to 20%. Eon Pass is a portfolio company of 500 Global. No
+  public API, SDK, or developer surface is currently published; this profile is
+  maintained as an enrichment lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/eon-pass/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://eonpass.com/hubfs/og-images/OG_default.png
 tags:
 - Company
+- Anti-Counterfeiting
+- Brand Protection
+- Artificial Intelligence
+- Security
+- Investigations
+- Enforcement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://eonpass.com
+- type: Blog
+  url: https://eonpass.com/blog
+- type: SignUp
+  url: https://eonpass.com/get-started
+- type: PrivacyPolicy
+  url: https://eonpass.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eonpass
+- type: DomainSecurity
+  url: security/eon-pass-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
